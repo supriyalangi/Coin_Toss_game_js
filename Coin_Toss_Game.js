@@ -41,10 +41,16 @@ function head() {
 
 
     playerSelectedValue.innerHTML = "head";
+    playerSelectedValue.style.color = "blue";
+    playerSelectedValue.style.fontSize = "30px";
 
     computerSelectedValue.innerHTML = randomComputerSelect;
+    computerSelectedValue.style.color = "green";
+    computerSelectedValue.style.fontSize = "30px";
     playerScore.innerHTML = playerSum;
+    playerScore.style.fontSize="25px"
     ComputerScore.innerHTML = ComputerSum;
+    ComputerScore.style.fontSize="25px"
 
     if (playerSum == "5") {
         winner.innerHTML = "congratulations!!!You win this Game!"
