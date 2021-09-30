@@ -1,0 +1,69 @@
+
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .main{
+        width: 700px;
+        height: 450px;
+        background-color: aquamarine;
+    }
+    .select{
+        width: 700px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    .a1,.a2{
+        width: 300px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    img{
+        border-radius: 50px;
+    }
+    .score{
+        width: 700px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+     
+    .a3,.a4{
+        width: 300px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    @media screen and (max-width:725px){
+        .main,.select,.score{
+        width: 500px;    
+    }
+
+    }
+    @media screen and (max-width:500px){
+        .main,.select,.score{
+        width: 400px;    
+    }
+
+    }
+    @media screen and (max-width:405px){
+        .main,.select,.score{
+        width: 300px;    
+    }
+
+    }
